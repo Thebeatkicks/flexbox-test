@@ -41,6 +41,18 @@ body {
     flex-basis: 180px;
 }
 
+.stretch {
+    align-items: stretch;
+}
+
+.start-end {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.end {
+    justify-content: flex-end;
+}
 .box {
     background-color: #9D0208;
     min-width: 78px;
@@ -49,5 +61,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 180px;
+    
 }
