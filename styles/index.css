@@ -16,9 +16,18 @@ body {
     height: 100vh;
     background-color: #FAA307;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.container__bottom {
+    position: relative;
+    width: 70%;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 60%;
 }
 
 .container {
@@ -53,6 +62,7 @@ body {
 .end {
     justify-content: flex-end;
 }
+
 .box {
     background-color: #9D0208;
     min-width: 78px;
@@ -61,5 +71,27 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
+
+.big {
+    width: 273px;
+    height: 220px;
+    background-color: #6A040F;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+    padding:10px;
+}
+
+.blue {
+    background-color: #03071E;
+}
+
+.circle {
+    background-color: #748CAB;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    display: flex;
 }
